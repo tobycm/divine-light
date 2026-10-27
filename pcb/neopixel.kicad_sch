@@ -531,6 +531,10 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 238.76 152.4)
+		(uuid "ed8feab0-4ada-4784-b0c0-27f07581d735")
+	)
 	(wire
 		(pts
 			(xy 241.3 38.1) (xy 241.3 57.15)
@@ -560,6 +564,16 @@
 			(type default)
 		)
 		(uuid "15ca3748-1773-4292-b2d2-742b5be078d2")
+	)
+	(wire
+		(pts
+			(xy 238.76 152.4) (xy 236.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16434270-0d0f-451b-b790-1bae73e1999f")
 	)
 	(wire
 		(pts
@@ -994,7 +1008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05a381b7-a7ad-4bca-a8aa-46bce2a813d2")
-		(property "Reference" "D22"
+		(property "Reference" "D20"
 			(at 110.49 107.6113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1075,7 +1089,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D22")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -1192,7 +1206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1469b554-074e-4245-93cd-1b1b18eca3c7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR035"
 			(at 127 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1253,7 +1267,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR022")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1271,7 +1285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15dae831-ebc5-491b-b54a-7b1da1062e28")
-		(property "Reference" "D21"
+		(property "Reference" "D27"
 			(at 85.09 145.7113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1352,7 +1366,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D21")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -1370,7 +1384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a7df86c-20cd-4b78-ae5c-824bbcab42b2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR032"
 			(at 50.8 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1431,7 +1445,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR03")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1548,7 +1562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d54d2b8-1c72-4767-b77a-4ba671b82f1f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 101.6 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -1608,7 +1622,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1626,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa18189-ebad-446b-9ef6-8a3d8fa76fcc")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR048"
 			(at 50.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1687,7 +1701,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR041")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1804,7 +1818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2796b03b-a383-4e8c-a311-58a882632c8b")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR062"
 			(at 203.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1864,7 +1878,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR080")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1882,7 +1896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28ff721a-2d25-4ce3-b9cd-210ae7127be5")
-		(property "Reference" "D23"
+		(property "Reference" "D28"
 			(at 110.49 145.7113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1963,7 +1977,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D23")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -1981,7 +1995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29b2ab4c-1a92-430a-aaba-506d30ca2ba9")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR064"
 			(at 50.8 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2042,7 +2056,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR057")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2af40e47-1a8d-4d11-875d-ef1c70f95288")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR057"
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2199,7 +2213,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR060")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2316,7 +2330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cfb451b-6515-4507-9545-e1333f96f867")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR078"
 			(at 203.2 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -2376,7 +2390,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR082")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d30929e-ed2b-40ae-9fc4-e8185f5a870c")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 212.09 145.7113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,7 +2489,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -2493,7 +2507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d7b5f10-c195-495c-9d7d-aa7e1ac6d639")
-		(property "Reference" "D24"
+		(property "Reference" "D21"
 			(at 135.89 107.6113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +2588,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D24")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -2592,7 +2606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6587d2-fa79-422a-b16c-cac0aa7a6065")
-		(property "Reference" "D25"
+		(property "Reference" "D29"
 			(at 135.89 145.7113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2687,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D25")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "338ee397-ee96-4027-9b10-ab1d343680c8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR043"
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2751,7 +2765,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR046")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d4e489-ba48-45e7-a9b0-59e9a12e7123")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR058"
 			(at 101.6 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2829,7 +2843,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR064")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2847,7 +2861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "392b7138-76c5-4899-9200-3da88ebdc7b6")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR034"
 			(at 101.6 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2908,7 +2922,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR07")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2926,7 +2940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd9571f-943d-483e-98c9-72b267b46d53")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 152.4 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2987,7 +3001,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e5260bf-b54d-41c6-b687-1d0429e2becd")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR083"
 			(at 127 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3066,7 +3080,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR071")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48cd2530-fea0-4c13-bf51-45d6ce102e3f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR080"
 			(at 50.8 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3322,7 +3336,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR059")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3439,7 +3453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c01e682-9f3f-441b-ba98-8dff18d7ffca")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR065"
 			(at 76.2 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3500,7 +3514,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR061")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f4c9b0d-0839-4f53-b0b4-23b33ba5cecc")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR069"
 			(at 177.8 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3579,7 +3593,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR077")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3597,7 +3611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "510febd4-b7ce-44a2-ad09-d2cac5aacf0c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR022"
 			(at 228.6 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3657,7 +3671,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR038")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3675,7 +3689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c4783e1-32d9-4e60-a899-7ec678d48b84")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR061"
 			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3749,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR076")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3753,7 +3767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df0e798-0f2c-44fb-a03a-87970b75ce7f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR033"
 			(at 76.2 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3814,7 +3828,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR05")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3832,7 +3846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df48e0a-4117-4b91-9be0-fc50c42fa62a")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3893,7 +3907,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3911,7 +3925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60353c2a-2ae2-442c-b5d4-13d14d064f79")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 127 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3972,7 +3986,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3990,7 +4004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c7068d-98c8-41a0-bd92-32ef48f86204")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 76.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4051,7 +4065,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4069,7 +4083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "684cd038-eee8-4089-a265-fc274af8244e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR07"
 			(at 177.8 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4129,7 +4143,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR034")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4147,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69d32467-8d3d-4aee-90dd-3f7064628b68")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR042"
 			(at 101.6 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4207,7 +4221,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4324,7 +4338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb908dc-9df0-4427-91fc-165f8324bea3")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR085"
 			(at 177.8 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4385,7 +4399,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR079")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f9e65ca-228a-4e3b-8245-60bb58304022")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR063"
 			(at 228.6 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4463,7 +4477,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR084")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4481,7 +4495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706a6037-fec6-47b2-bd08-5645565e570d")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR072"
 			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4555,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR058")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ca49ae-ebbb-40c6-b2a7-e9544efa781b")
-		(property "Reference" "D28"
+		(property "Reference" "D23"
 			(at 186.69 107.6113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +4654,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D28")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -4757,7 +4771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73da0f97-1d90-4d4f-8efe-b77b38deea58")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR071"
 			(at 228.6 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4818,7 +4832,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR085")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4836,7 +4850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7429e3f9-7c1e-4075-ba3e-3d8bbb678dd4")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR070"
 			(at 203.2 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4897,7 +4911,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR081")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75b9573e-9ade-4788-b075-15ad7a53be0e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 76.2 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5074,7 +5088,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5092,7 +5106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76f72850-cc7a-4886-92e7-5d3630cba926")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5152,7 +5166,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "778ff853-3df6-4c80-9b16-caf81458b9f8")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR060"
 			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5230,7 +5244,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR072")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5326,7 +5340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7f0d6c-7ce4-4a0e-aa35-583c327ade4d")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR084"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5387,7 +5401,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR075")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5405,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d701938-19ff-4d12-b1d8-d52e36637fd1")
-		(property "Reference" "D19"
+		(property "Reference" "D26"
 			(at 59.69 145.7113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5500,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D19")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -5603,7 +5617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8899e74d-f045-418f-8f54-a76b74c9af72")
-		(property "Reference" "D29"
+		(property "Reference" "D31"
 			(at 186.69 145.7113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5684,7 +5698,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D29")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -5781,7 +5795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "984c3071-9e55-4162-ab2a-9ea93f6cb9ed")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 203.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5842,7 +5856,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6038,7 +6052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de24a9d-3286-49b3-825a-ef1e52765c09")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR075"
 			(at 127 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6112,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR070")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -6116,7 +6130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f29c533-c147-43b7-ba62-c5a2c1153a0b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 177.8 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6176,7 +6190,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6194,7 +6208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f67e9cb-c5ed-4337-98c7-a003cb747fe1")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR086"
 			(at 203.2 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6255,7 +6269,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR083")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6273,7 +6287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a165d9c3-4c43-462b-bb0e-f66a958f8c7b")
-		(property "Reference" "D26"
+		(property "Reference" "D22"
 			(at 161.29 107.6113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,7 +6368,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D26")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6372,7 +6386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9777912-f374-4dce-be11-3a45096c4f81")
-		(property "Reference" "D32"
+		(property "Reference" "D25"
 			(at 237.49 107.6113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6453,7 +6467,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D32")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6471,7 +6485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab3610f7-2078-4292-a13a-bb92485126ea")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR067"
 			(at 127 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6532,7 +6546,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR069")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6550,7 +6564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b43a178e-3cdf-438f-8568-0b7daf382409")
-		(property "Reference" "D30"
+		(property "Reference" "D24"
 			(at 212.09 107.6113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6631,7 +6645,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D30")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -6748,7 +6762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e41e21-8190-4c7b-9dba-788feb5ce8b2")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR06"
 			(at 152.4 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6808,7 +6822,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR032")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6826,7 +6840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f0863c-58bc-4c2c-afac-bd4f9144fc76")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR079"
 			(at 228.6 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6886,7 +6900,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR086")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6904,7 +6918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e0d269-0260-4909-abde-226e1ab65635")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR044"
 			(at 152.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6964,7 +6978,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR048")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6982,7 +6996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9567f4d-b11d-4dbe-8a39-ea44fa91e4b6")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR059"
 			(at 127 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7042,7 +7056,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR068")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7336,7 +7350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfc4ee06-f0b0-42cd-879f-e0af878af840")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 152.4 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7397,7 +7411,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7415,7 +7429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2536e83-8524-4744-b91a-f6facc383db6")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 177.8 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7476,7 +7490,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7494,7 +7508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f7fd29-7538-4017-ac6b-592df63e4a21")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 152.4 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7554,7 +7568,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7671,7 +7685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ebc382-775c-42a2-b144-5f3f159a99d5")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR046"
 			(at 203.2 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7731,7 +7745,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR052")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7749,7 +7763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf59630-48a2-4cb2-b39d-43de8914de96")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 76.2 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7809,7 +7823,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7827,7 +7841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc302a0-6f2e-44b0-907f-d0298b4b1090")
-		(property "Reference" "D27"
+		(property "Reference" "D30"
 			(at 161.29 145.7113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,7 +7922,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D27")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0575fac-9dc9-4d8d-83f5-d0a7c46a8b84")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR081"
 			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7987,7 +8001,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR063")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8005,7 +8019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d66102f1-a1a8-4f9f-a326-b10e311f4c20")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR045"
 			(at 177.8 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8065,7 +8079,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR050")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8182,7 +8196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d916d861-4f67-4288-a5dd-1e724dce23ba")
-		(property "Reference" "D20"
+		(property "Reference" "D19"
 			(at 85.09 107.6113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,7 +8277,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "D20")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -8281,7 +8295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15fc936-ec01-4385-9872-7605fcbd4a28")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR074"
 			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8341,7 +8355,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR066")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8359,7 +8373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e190055a-7bcb-4cb8-911f-2f2b83205051")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR073"
 			(at 76.2 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8419,7 +8433,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR062")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8437,7 +8451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4734f31-1725-4b1b-9ba2-3ac60f6d9f3c")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR082"
 			(at 101.6 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8498,7 +8512,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR067")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8516,7 +8530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaf6e17e-6744-4b7a-8310-656e9a539d90")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 101.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8577,7 +8591,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8595,7 +8609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed782c92-072e-4a71-bc3f-57fdffba974e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR08"
 			(at 203.2 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8655,7 +8669,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR036")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8673,7 +8687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c9e7a7-49f3-4bd8-b5bb-e159858e7f6e")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR068"
 			(at 152.4 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8734,7 +8748,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR073")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -8851,7 +8865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f723049f-8382-4ead-9612-f19426f8230a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR047"
 			(at 228.6 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8911,7 +8925,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR054")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8929,7 +8943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa9d3ced-51c7-4ff2-9ce1-8215d146f007")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 101.6 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8990,7 +9004,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9008,7 +9022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc69a043-dd94-4f28-979a-4220a9668fb4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 203.2 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9069,7 +9083,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/161cdba8-563c-493e-aa04-9dc8b3f46b47"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

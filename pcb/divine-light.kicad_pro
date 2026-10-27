@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -82,7 +82,7 @@
       },
       "rule_severities": {
         "annular_width": "warning",
-        "clearance": "warning",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
@@ -94,7 +94,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "error",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
@@ -154,7 +154,7 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
@@ -609,12 +612,20 @@
         "wire_width": 6
       },
       {
+        "name": "Antenna",
+        "pcb_color": "rgb(255, 27, 247)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.9182,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.211074,
         "name": "USB 2.0",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.211074,
         "tuning_profile": ""
@@ -677,6 +688,14 @@
       {
         "netclass": "Default",
         "pattern": "/QSPI*"
+      },
+      {
+        "netclass": "Antenna",
+        "pattern": "/ANT"
+      },
+      {
+        "netclass": "Antenna",
+        "pattern": "*AE2*"
       }
     ]
   },
@@ -695,7 +714,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -845,7 +864,7 @@
         "uuid": "57bb0f85-47e9-49c7-9624-1382bb33037d"
       }
     ],
-    "used_designators": "#PWR1-104,AE1,C1-11,D1-33,F1-2,FB1-2,H1-4,J1-5,L1-2,Q1,R1-14,TH1,U1-6,Y1",
+    "used_designators": "#PWR1-108,AE1-2,C1-14,D1-33,F1-2,FB1-2,H1-4,J1-5,L1-3,Q1,R1-14,TH1,U1-6,Y1",
     "variants": []
   },
   "sheets": [
