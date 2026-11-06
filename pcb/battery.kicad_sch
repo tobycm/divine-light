@@ -2410,7 +2410,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "SW"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7952,7 +7952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c28e9ca-81b6-4035-9bcb-5dac98c54c99")
-		(property "Reference" "U6"
+		(property "Reference" "SW1"
 			(at 41.91 24.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,7 +8052,7 @@
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d/35da6cb0-896c-4f87-b29e-beafbe437737"
-					(reference "U6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
