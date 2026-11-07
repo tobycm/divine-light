@@ -5192,6 +5192,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C173752"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f0ce23e-446a-4122-b535-f9babb0c6a3e")
 		)
@@ -7218,6 +7229,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 53.34 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C173752"
 			(at 53.34 45.72 0)
 			(hide yes)
 			(show_name no)

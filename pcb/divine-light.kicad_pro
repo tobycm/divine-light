@@ -705,7 +705,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../cad/divine-light.step",
+      "step": "../cad/divine-light-low-detail.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -816,7 +816,7 @@
           "show": false
         }
       ],
-      "filter_string": "SW",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
