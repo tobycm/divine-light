@@ -102,7 +102,7 @@
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -864,7 +864,7 @@
         "uuid": "57bb0f85-47e9-49c7-9624-1382bb33037d"
       }
     ],
-    "used_designators": "#PWR1-108,AE1-2,C1-14,D1-33,F1-2,FB1-2,H1-4,J1-5,L1-3,Q1,R1-14,TH1,U1-6,Y1",
+    "used_designators": "#PWR1-123,AE1-2,C1-15,D1-33,F1-2,FB1-2,H1-4,J1-6,L1-3,Q1,R1-16,TH1,U1-7,Y1",
     "variants": []
   },
   "sheets": [
@@ -879,6 +879,10 @@
     [
       "161cdba8-563c-493e-aa04-9dc8b3f46b47",
       "Neopixel"
+    ],
+    [
+      "465b4f7a-b95d-47d2-90bb-d6cbc6e6ff77",
+      "USB Hub"
     ]
   ],
   "text_variables": {},

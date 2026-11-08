@@ -5842,7 +5842,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "90k"
+		(property "Value" "180k"
 			(at 128.27 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +5886,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C862072"
+		(property "LCSC Part" "C17923"
 			(at 130.81 52.07 90)
 			(hide yes)
 			(show_name no)
