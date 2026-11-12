@@ -3088,6 +3088,16 @@
 		)
 		(uuid "f3c1e61c-55d6-4959-aabd-02611041e7aa")
 	)
+	(text "EN floating: self enable"
+		(exclude_from_sim no)
+		(at 32.004 136.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36c86414-d0c6-4867-9f5b-cee3e1b3446f")
+	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
 		(at 87.884 196.342 0)
@@ -3215,6 +3225,12 @@
 		(uuid "48484a79-5e76-483e-9958-63f7f5456070")
 	)
 	(junction
+		(at 58.42 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65bdfa2b-6107-4201-b058-732420a01a02")
+	)
+	(junction
 		(at 243.84 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3286,12 +3302,18 @@
 		(color 0 0 0 0)
 		(uuid "f6a964ed-573a-4a6f-a3f8-6a246973fe74")
 	)
+	(junction
+		(at 68.58 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f909ba8d-4eb8-4b71-b2f5-f2b7227384a0")
+	)
 	(no_connect
-		(at 15.24 124.46)
+		(at 17.78 124.46)
 		(uuid "0d86c574-d3c1-4a30-847a-51b511cc9c2b")
 	)
 	(no_connect
-		(at 15.24 127)
+		(at 17.78 127)
 		(uuid "271dceb4-106e-4e66-81ac-22fef1a3d7c2")
 	)
 	(no_connect
@@ -3307,16 +3329,8 @@
 		(uuid "636a85c2-65f3-4739-be57-110cd0b60023")
 	)
 	(no_connect
-		(at 15.24 129.54)
+		(at 17.78 129.54)
 		(uuid "7489121f-337a-4748-9b20-feb95bba523b")
-	)
-	(no_connect
-		(at 66.04 129.54)
-		(uuid "82036a7e-88e1-412f-b698-630da0880441")
-	)
-	(no_connect
-		(at 66.04 139.7)
-		(uuid "c5b97111-1441-44a7-9a22-d818104daced")
 	)
 	(no_connect
 		(at 66.04 137.16)
@@ -3325,10 +3339,6 @@
 	(no_connect
 		(at 127 147.32)
 		(uuid "e7d7b93b-4100-4903-abbc-be48b66548c3")
-	)
-	(no_connect
-		(at 66.04 132.08)
-		(uuid "f9e0409a-4877-4337-841e-ba0d8a59629b")
 	)
 	(wire
 		(pts
@@ -3502,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 124.46) (xy 20.32 124.46)
+			(xy 17.78 124.46) (xy 20.32 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3562,6 +3572,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 132.08) (xy 58.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42546348-624b-40a5-9561-3397aaec36d3")
+	)
+	(wire
+		(pts
 			(xy 139.7 182.88) (xy 144.78 182.88)
 		)
 		(stroke
@@ -3612,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 93.98 104.14)
+			(xy 91.44 99.06) (xy 91.44 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3649,16 +3669,6 @@
 			(type default)
 		)
 		(uuid "564f2f6e-f7d1-4105-88f8-804cf746430e")
-	)
-	(wire
-		(pts
-			(xy 66.04 129.54) (xy 68.58 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ab05d4-bd27-47ac-abcb-9d64585d073c")
 	)
 	(wire
 		(pts
@@ -3712,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 127) (xy 20.32 127)
+			(xy 17.78 127) (xy 20.32 127)
 		)
 		(stroke
 			(width 0)
@@ -3912,7 +3922,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 101.6) (xy 99.06 104.14)
+			(xy 91.44 101.6) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85821417-084b-479f-9f51-d1a6994ae051")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 99.06 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3962,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 101.6) (xy 93.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b386b8-3dcd-4286-bb0d-d550fd205296")
+	)
+	(wire
+		(pts
 			(xy 53.34 53.34) (xy 58.42 53.34)
 		)
 		(stroke
@@ -3979,6 +4009,16 @@
 			(type default)
 		)
 		(uuid "9deba108-2111-494f-8d04-c41d7e853c5b")
+	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8d8812-d707-4f5a-bf94-02382a265f1a")
 	)
 	(wire
 		(pts
@@ -4102,6 +4142,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 139.7) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e81197-260b-495a-87fc-dd9d9fca0676")
+	)
+	(wire
+		(pts
 			(xy 34.29 149.86) (xy 34.29 152.4)
 		)
 		(stroke
@@ -4109,16 +4159,6 @@
 			(type default)
 		)
 		(uuid "ba69a88c-bffd-4914-acf3-dd57cea1aef4")
-	)
-	(wire
-		(pts
-			(xy 66.04 139.7) (xy 68.58 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd977617-94f1-4fe3-aeb8-3fc2713c4f13")
 	)
 	(wire
 		(pts
@@ -4262,17 +4302,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 132.08) (xy 68.58 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e989bd99-39d5-4e6e-bdc4-acf1216419e5")
-	)
-	(wire
-		(pts
-			(xy 15.24 129.54) (xy 20.32 129.54)
+			(xy 17.78 129.54) (xy 20.32 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4339,6 +4369,16 @@
 			(type default)
 		)
 		(uuid "ff6e90e0-d1d6-452d-b331-b42b32e6f217")
+	)
+	(wire
+		(pts
+			(xy 58.42 132.08) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9409b5-c5dd-4cc0-8bdc-8452240f7d97")
 	)
 	(label "D2D-"
 		(at 144.78 180.34 180)
@@ -4702,6 +4742,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 165.1 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f8f84a7-254c-4324-9a90-8800f8de5cc4")
+		(property "Reference" "C21"
+			(at 161.29 144.1449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 161.29 147.9549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 164.1348 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1705"
+			(at 165.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3134a114-2c32-467a-b8c9-a5585ad3736f")
+		)
+		(pin "1"
+			(uuid "d32f1983-e38b-49ae-9a26-219100357919")
+		)
+		(instances
+			(project "divine-light"
+				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 252.73 40.64 90)
 		(unit 1)
@@ -4787,6 +4920,84 @@
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "199d5eb4-5635-4c75-a31a-d9ba8b02123e")
+		(property "Reference" "#PWR0130"
+			(at 91.44 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_USB"
+			(at 87.884 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20586495-8501-431a-a006-916292cc84c2")
+		)
+		(instances
+			(project "divine-light"
+				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -6055,6 +6266,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "530fd324-57df-4811-abfd-ac5b06e80e0c")
+		(property "Reference" "#PWR0132"
+			(at 165.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ad6875a-e90a-48ff-b192-24f64c584d67")
+		)
+		(instances
+			(project "divine-light"
+				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 124.46 0)
 		(unit 1)
@@ -6336,7 +6625,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 93.98 101.6 0)
+		(at 152.4 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6344,10 +6633,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71737b11-4815-423d-85a0-3fe9028fe154")
-		(property "Reference" "#PWR098"
-			(at 93.98 105.41 0)
+		(uuid "6a51da27-30b7-4a56-8e0b-f1165619a32e")
+		(property "Reference" "#PWR0131"
+			(at 152.4 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6357,18 +6645,19 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 93.98 96.52 0)
+		(property "Value" "+5V_USB"
+			(at 148.844 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 101.6 0)
+			(at 152.4 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6379,7 +6668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 101.6 0)
+			(at 152.4 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6390,7 +6679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 101.6 0)
+			(at 152.4 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6401,12 +6690,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "34d65ae7-bfec-49b8-93d8-a968cd8cbd2f")
+			(uuid "0586a379-49c1-4b4b-8104-5f111ba160b6")
 		)
 		(instances
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
-					(reference "#PWR098")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -7918,7 +8207,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 99.06 101.6 0)
+		(at 99.06 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7929,7 +8218,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ecea37c-6521-45ba-ad76-ccf963e8e806")
 		(property "Reference" "#PWR099"
-			(at 99.06 105.41 0)
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +8229,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 99.06 96.52 0)
+			(at 99.06 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7950,7 +8239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 101.6 0)
+			(at 99.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7961,7 +8250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 101.6 0)
+			(at 99.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7972,7 +8261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 101.6 0)
+			(at 99.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8391,6 +8680,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 58.42 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa398c75-9572-4e7d-b95b-dc4e55f412ff")
+		(property "Reference" "#PWR0141"
+			(at 58.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a451594-c2b8-4569-891a-2807e068de20")
+		)
+		(instances
+			(project "divine-light"
+				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 34.29 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -8782,6 +9150,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 152.4 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee3905e-fd13-440f-9f70-59736ef1e6b6")
+		(property "Reference" "#PWR0133"
+			(at 152.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "504e3ff6-f02e-454c-830d-cfe1dc5974f1")
+		)
+		(instances
+			(project "divine-light"
+				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 266.7 66.04 0)
 		(unit 1)
@@ -8930,6 +9377,99 @@
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d356b785-1355-4a5d-bf50-6537012cf1f2")
+		(property "Reference" "C20"
+			(at 148.59 144.1449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 148.59 147.9549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 151.4348 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1705"
+			(at 152.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "591551a9-e48a-43ac-aeec-9da1f68c96ec")
+		)
+		(pin "1"
+			(uuid "7ebe6d71-8c47-4230-bf42-06d7afa004e3")
+		)
+		(instances
+			(project "divine-light"
+				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9664,6 +10204,85 @@
 			(project "divine-light"
 				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7a2c6d2-090c-48f5-9abc-cf41569e0e89")
+		(property "Reference" "#PWR0134"
+			(at 165.1 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f9b7095-8056-46c8-b1b8-30f6e891947a")
+		)
+		(instances
+			(project "divine-light"
+				(path "/57bb0f85-47e9-49c7-9624-1382bb33037d"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
